@@ -2,5 +2,6 @@
   "framework": "docusaurus",
   "buildCommand": "npm run build",
   "outputDirectory": "build",
-  "devCommand": "npm run start"
+  "devCommand": "npm run start",
+  "rootDirectory": "."
 }
