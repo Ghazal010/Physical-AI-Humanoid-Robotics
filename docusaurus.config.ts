@@ -120,7 +120,7 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Textbook',
+          title: 'Course',
           items: [
             {
               label: 'Introduction',
@@ -133,6 +133,10 @@ const config: Config = {
             {
               label: 'Learning Outcomes',
               to: '/docs/about/learning-outcomes',
+            },
+            {
+              label: 'Curriculum',
+              to: '/docs/module-1',
             },
           ],
         },
@@ -169,17 +173,17 @@ const config: Config = {
               to: '/docs/resources/hardware-requirements',
             },
             {
-              label: 'ROS 2 Documentation',
-              href: 'https://docs.ros.org/en/humble/',
+              label: 'Development Setup',
+              to: '/docs/resources/development-environment',
             },
             {
-              label: 'NVIDIA Isaac',
-              href: 'https://developer.nvidia.com/isaac-ros',
+              label: 'Troubleshooting',
+              to: '/docs/resources/troubleshooting',
             },
           ],
         },
         {
-          title: 'Support',
+          title: 'Connect',
           items: [
             {
               label: 'Discussion Forums',
@@ -190,13 +194,17 @@ const config: Config = {
               href: '#',
             },
             {
-              label: 'Contact',
+              label: 'Contact Us',
               href: '#',
+            },
+            {
+              label: 'Further Reading',
+              to: '/docs/resources/further-reading',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics Textbook. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Physical AI & Humanoid Robotics Textbook. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.oneLight,

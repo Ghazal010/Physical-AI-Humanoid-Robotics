@@ -22,10 +22,20 @@ function HomepageHeader() {
               {siteConfig.tagline}
             </p>
             <div className={styles.buttons}>
-              <Link className={clsx('button button--primary button--lg', styles.primaryButton)} to="/docs/intro">
+              <Link
+                className={clsx('button button--primary button--lg', styles.primaryButton)}
+                to="/docs/intro"
+                role="button"
+                aria-label="Start learning the Physical AI & Humanoid Robotics course"
+              >
                 Start Learning Now
               </Link>
-              <Link className={clsx('button button--secondary button--lg', styles.secondaryButton)} to="/docs/about/course-overview">
+              <Link
+                className={clsx('button button--secondary button--lg', styles.secondaryButton)}
+                to="/docs/about/course-overview"
+                role="button"
+                aria-label="View course overview and structure"
+              >
                 Course Overview
               </Link>
             </div>
